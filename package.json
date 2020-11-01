@@ -1,0 +1,30 @@
+{
+  "name": "correct_horse_button",
+  "version": "1.0.0",
+  "description": "Script to display the 'You're Correct Horse' video when a button connected on BCM 16 is pressed.",
+  "main": "ButtonListener.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haasr/correct_horse_button.git"
+  },
+  "keywords": [
+    "correct",
+    "horse",
+    "gpio",
+    "dank",
+    "meme",
+    "art"
+  ],
+  "author": "Flyin Ryan Haaas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/haasr/correct_horse_button/issues"
+  },
+  "homepage": "https://github.com/haasr/correct_horse_button#readme",
+  "dependencies": {
+    "onoff": "^6.0.1"
+  }
+}
