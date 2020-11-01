@@ -23,20 +23,20 @@ Installing Node
 
 Download the archive:
 
-  wget https://nodejs.org/dist/v12.18.3/node-v12.18.3-linux-armv7l.tar.gz
+    wget https://nodejs.org/dist/v12.18.3/node-v12.18.3-linux-armv7l.tar.gz
   
 Extract it:
 
-  tar -xf node-v12.18.3-linux-armv7l.tar.gz
+    tar -xf node-v12.18.3-linux-armv7l.tar.gz
   
 Copy it:
 
-  cp -r node-v12.18.3-linux-armv7l/* /usr/local/
+    cp -r node-v12.18.3-linux-armv7l/* /usr/local/
   
 Finally, check the Node and NPM versions:
 
-  node --version
-  npm --version
+    node --version
+    npm --version
  
  
  Installing wiringpi
@@ -44,7 +44,7 @@ Finally, check the Node and NPM versions:
  
  If wiringpi is not installed, it may be installed using:
  
-  sudo apt install wiringpi -y
+    sudo apt install wiringpi -y
   
   
  Installing chromium-browser
@@ -52,7 +52,7 @@ Finally, check the Node and NPM versions:
  
   If chromium-browser is not installed, it may be installed using:
   
-  sudo apt install chromium-browser -y
+    sudo apt install chromium-browser -y
   
  
 Connecting the push-button
@@ -65,7 +65,7 @@ and connect the other pin or set of pins to physical pin 36 (GPIO 16).
 Execute the code
 ----------------
  
-  node ButtonListener.js
+    node ButtonListener.js
   
 After execution, pushing the button will hopefully lauch your video. Note that the video URL is hardcoded
 in the script because I am lazy. You can replace it with the URL of your choice such as (https://www.youtube.com/watch?v=b3_lVSrPB6w).
