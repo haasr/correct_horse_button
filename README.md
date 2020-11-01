@@ -58,8 +58,8 @@ Finally, check the Node and NPM versions:
 Connecting the push-button
 --------------------------
  
-Simply connect one pin or set of pins on the button (I am using a 4-pin button) to physical pin 34 (GND)
-and connect the other pin or set of pins to physical pin 36 (GPIO 16).
+Simply connect one pin to physical pin 34 (GND) and connect the other pin
+to physical pin 36 (GPIO 16).
 
 
 Install the node dependencies
