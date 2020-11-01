@@ -9,7 +9,7 @@ let videoBtn = new gpio(Button_GPIO_Pin, 'in', 'falling',
 
 videoBtn.watch(function(err, value) {
 	if (err) console.log('Error: ', err, err.stack);
-	console.log("Button pressed; launching video in default browser...");
+	console.log("Button pressed; launching video in browser...");
 	child_process.spawn('chromium-browser', ['--kiosk', 'file:///home/pi/Videos/correct_horse.mp4']);
 });
 
