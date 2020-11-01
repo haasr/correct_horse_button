@@ -58,7 +58,7 @@ Finally, check the Node and NPM versions:
 Connecting the push-button
 --------------------------
  
-Simply connect one pin to physical pin 34 (GND) and connect the other pin
+Simply connect one pin of the button to physical pin 34 (GND) and connect the other pin
 to physical pin 36 (GPIO 16).
 
 
