@@ -1,6 +1,8 @@
 # correct_horse_button
 Open a video by pressing a button on the Raspberry Pi. This is called correct_horse_button because it opens an mp4 copy of this video: https://www.youtube.com/watch?v=b3_lVSrPB6w
 
+![Video Demo](demo.gif)
+
 Requirements
 ------------
 
